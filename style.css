@@ -1,0 +1,111 @@
+.btn-cnt {
+  position: absolute;
+  margin: auto;
+  bottom: 37%;
+  font-size: 50px;
+  left: 47%;
+}
+@media only screen and (max-width: 720px) {
+  .btn-cnt {
+    color: black;
+    position: absolute;
+    margin: auto;
+    bottom: 27%;
+    left: 45%;
+  }
+}
+.btn-dwn {
+  position: absolute;
+  left: 38%;
+}
+.btn-cv {
+  position: absolute;
+  left: 54%;
+}
+@media only screen and (max-width: 720px) {
+  .btn-dwn {
+    position: absolute;
+    left: 27%;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .btn-dwn {
+    position: absolute;
+    left: 22%;
+  }
+}
+.ant {
+  animation-name: JudulUD;
+  animation-timing-function: ease;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  transition: all;
+}
+@keyframes JudulUD {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.cont2 {
+  border: solid grey 2px;
+  border-radius: 10px;
+  width: 250px;
+  height: 250px;
+}
+.poin-cont2 {
+  font-size: 45px;
+  margin-left: 8px;
+}
+@media only screen and (max-width: 700px) {
+  .poin-cont2 {
+    font-size: 70px;
+    margin-left: 0px;
+  }
+  .cont2 {
+    margin-left: 75px;
+    width: 500px;
+    height: 210px;
+  }
+}
+.cont2-title {
+  font-size: 15px;
+}
+@media only screen and (max-width: 720px) {
+  .cont2-title {
+    font-size: 20px;
+  }
+  .cont2-text {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .pda1 .card-img-top .img-cont22 {
+    width: 600px;
+  }
+}
+.ic-container {
+  background-color: blue;
+  height: 200px;
+}
+.ic-container .icnt {
+  justify-content: center;
+  margin-left: 40%;
+  color: black;
+  font-size: 50px;
+}
+.ic-container .ic-title {
+  overflow: hidden;
+  color: white;
+  text-align: center;
+  margin-left: 40px;
+  transform: translate(-10%);
+}
+.ic-container .ic-text {
+  color: white;
+}
